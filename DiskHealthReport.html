@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Disk Health Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { text-align: left; padding: 8px; border: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+        .low { background-color: #d4edda; }
+        .medium { background-color: #fff3cd; }
+        .high { background-color: #f8d7da; }
+        .summary { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Disk Health Report</h1>
+    <h3>Generated on 04/24/2025 19:46:03</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>DeviceId</th>
+                <th>FriendlyName</th>
+                <th>Size(GB)</th>
+                <th>HealthStatus</th>
+                <th>OperationalStatus</th>
+                <th>FirmwareVersion</th>
+                <th>RiskLevel</th>
+                <th>ReadErrorsTotal</th>
+                <th>WriteErrorsTotal</th>
+                <th>Temperature</th>
+            </tr>
+        </thead>
+        <tbody><tr class='low'>
+            <td>2</td>
+            <td>Samsung SSD 850 EVO 250GB</td>
+            <td>232.89</td>
+            <td>Healthy</td>
+            <td>OK</td>
+            <td>EMT01B6Q</td>
+            <td>low</td>
+            <td>0</td>
+            <td></td>
+            <td>0</td>
+        </tr>
+<tr class='low'>
+            <td>1</td>
+            <td>ST1000DM003-1CH162</td>
+            <td>931.51</td>
+            <td>Healthy</td>
+            <td>OK</td>
+            <td>HP33</td>
+            <td>low</td>
+            <td>8</td>
+            <td></td>
+            <td>33</td>
+        </tr>
+<tr class='low'>
+            <td>0</td>
+            <td>Samsung SSD 850 EVO 250GB</td>
+            <td>232.89</td>
+            <td>Healthy</td>
+            <td>OK</td>
+            <td>EMT02B6Q</td>
+            <td>low</td>
+            <td>0</td>
+            <td></td>
+            <td>0</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="summary">
+        <h2>Summary</h2>
+        <p><strong>Healthy Disks:</strong> 3</p>
+        <p><strong>Warning Disks:</strong> 0</p>
+        <p><strong>Unhealthy Disks:</strong> 0</p>
+    </div>
+</body>
+</html>
